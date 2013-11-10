@@ -1,5 +1,5 @@
 /**
- * @author Charlie Calvert
+ * @author Donald Lee
  */
 
 var sprite = function(params) {	
