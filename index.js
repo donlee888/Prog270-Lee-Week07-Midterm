@@ -2,6 +2,11 @@
  * @author Donald Lee
  */
 
+var time = function displayDate()
+{
+document.getElementById("Time Display").innerHTML=Date();
+}
+
 var sprite = function(params) {	
 	var $element = params.$drawTarget.append('<div/>').find(':last');
 	var elemStyle = $element[0].style;	

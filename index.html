@@ -24,7 +24,12 @@
 		<script src="index.js"></script>
 		<script src="MongoData.js"></script>
 		
-
+        <script>
+        function displayDate()
+        {
+        document.getElementById("Time Display").innerHTML=Date();
+        }
+</script>
 	</head>
 	<body>
 		<div class="navbar navbar-inverse navbar-fixed-top">
@@ -61,6 +66,8 @@
 			<div class="starter-template">
 
 				<h1>Donald Lee's Favorite Places - Home Page</h1><br>
+				<p id="Display Date">Welcome to My Favorite Places Home Page!</p>
+				<button type="button" onclick="displayDate()">Display Date</button>
 
 				<div id='drawHere01' class='draw-target'></div>
 				<div id='drawHere02' class='draw-target'></div>
