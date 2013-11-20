@@ -2,9 +2,9 @@
  * @author Donald Lee
  */
 
-var time = function displayDate()
+var displayDate = function()
 {
-document.getElementById("Time Display").innerHTML=Date();
+    document.getElementById("timeDisplay").innerHTML=Date();
 }
 
 var sprite = function(params) {	
